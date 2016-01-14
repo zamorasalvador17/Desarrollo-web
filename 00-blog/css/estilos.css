@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: gainsboro;
+}
+header{
+    font-size: 50px;
+    font-weight: bold;
+}
+.menu{
+    float: left;
+    width: 10%;
+}
+section{
+    float: left;
+    width: 80%;
+    padding-bottom: 20px;
+}
+.texto{
+    background-color: lightgrey;
+}
+.subtitulo{
+    font-size: 20px;
+    font-weight: bold;s
+}
+aside{
+    float: left;
+    width: 15%;
+}
+footer{
+    text-align: center;
+    clear: both;
+}
+li{
+    list-style: none;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+hr{
+    width: 100%;
+    clear: both;
+
+}
+nav{
+    padding-bottom: 20px;
+}
