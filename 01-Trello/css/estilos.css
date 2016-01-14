@@ -1,0 +1,186 @@
+body{
+    font-family: jaf-facitweb, Helvetica Neue, Arial, sans-serif;
+    font-size: 16px;
+    line-height:2em;
+    
+}
+#logo{
+    height: 80px; 
+    margin-bottom: 2em;
+}
+header{
+    padding-top: 100px;
+    text-align: center;
+    margin-bottom: 7em;
+} 
+.boton-verde{
+    background: #61bd4f;
+    color: white;
+    box-shadow: 0 2px 0 #3f6f21;
+    border-radius: .3em;
+    height: 50px;
+    font-weight: bold;
+    margin-bottom: em;
+    padding: .7em 1.5em;
+    border: 0;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+.sect-azul{
+    background-color: #0079bf;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    clear: both;
+}
+.sect-blanco{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.sect-gris{
+    background-color: #e4f0f6;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.sect-morado{
+    background: #42548e;
+    color: #fff;
+    padding-top: 150px;
+    height: 250px;
+    
+}
+#imghero{
+    width: 90%;
+    padding-left: 5%;
+    padding-top: 40px;
+}
+#imgdetalles{
+     width: 70%;
+     padding-left: 5%;
+    padding-top: 60px;
+}
+.disposi{
+    float: left;
+    width: 60%;
+    text-align: left;
+}
+aside{
+    float: left;
+}
+.asidetexto{
+    width: 50%;
+    text-align: left;
+}
+p{
+    padding-left: 10%;
+    font-size: 20px;
+    padding-left: 29%;
+    padding-right: 29%;
+    
+}
+.p2{
+    padding-right: 4%;
+    padding-left: 230px;
+}
+h1{
+    font-size: 2.3em;
+    padding-left: 17%;
+    padding-right: 17%;
+    line-height: 40px;
+}
+a{
+    color: darkgrey;
+    font-size: 1.5em;
+}
+.botontransparente{   
+    border: 1px solid;
+    border-radius: .4em;
+    margin: .9em 0;
+    padding: .6em 1em;
+    text-decoration: none;
+    font-size: 20px;
+}
+.btnsstore{
+     text-align: center;
+    padding-bottom: 20px;
+}
+.funciones{
+    float:left;
+    width: 60%;
+}
+
+.empresas{
+    float:left;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.logoimg{
+    height: 35px;
+    margin-left: 40px;
+    padding-top: 40px;
+}
+.divlogos{
+    text-align: center;
+}
+.business{
+    float: left;
+    width: 25%;
+    text-align: right;
+    padding-left: 15%;
+    padding-right: 50px;
+}
+.pbusiness{
+   text-align: left;
+    padding-left: 5px;
+    padding-right: 150px;
+    padding-bottom: 30px;
+}
+#footer{
+    padding-bottom: 50px;
+}
+#footer nav{
+    text-align: center;
+}
+#footer ul{
+    padding-left: 20%;
+    height: 50px;
+    text-align: center;
+}
+#footer li{
+    float: left;
+    width: auto;   
+    text-align: center;
+    list-style: none;
+    padding-left: 20px;
+}
+#footer p{
+    font-size: 1em;
+    color: #999;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 95%;
+}
+#footer a{
+    font-size: 1em;
+}
+#sectionlobo{
+    height: 100px;
+    padding-top: 40px;
+}
+#imglobo{
+    width: 35%;
+    float: left;
+    text-align: right;
+}
+#asidelobo{
+    width: 50%;
+    float: left;
+    padding-top: 30px;
+    padding-left: 70px;
+}
+#asidelobo p {
+    padding-left: 0px;
+}
