@@ -9,34 +9,6 @@ body{
 a{
     text-decoration: none;
 }
-#discover{
-    visibility: hidden;
-    padding: 0px;
-    margin: 0px;
-    clear: both;
-    width: 100%;
-    height: 170px;
-    text-align: center;
-    background-color: white;
-}#discover p{
-    color: limegreen;
-}
-#discover ul {
-    text-align: center;
-    padding-left: 15%;
-    width: 100%;
-    list-style: none;
-    position: absolute;
-}
-#discover ul  li{
-    width:15%;
-    height: 150px;
-    float: left;
-}
-#discover ul  img{
-    width: auto;
-    height: 100px;
-}
 .a-verde{
     color: #6ab344;
     font-size: 14px;
@@ -46,7 +18,6 @@ a{
     color: #64ffda;
     font-size: 12px;
     font-weight: bold;
-    padding-left: 15%;
 }
 #divprin{
     margin-top: -20px;
@@ -67,12 +38,20 @@ a{
 }
 #menuhea1{
     float: left;
-    width: 58%;   
-    padding-right: 10px;
+    width: 55%;   
     padding-top: 30px;
 }
 .menuhea{
     float: right;
+}
+#buscar{
+    float: left;
+    height: 60px;
+    width: 5%;
+}
+#buscar img{
+    padding-top: 45px;
+    width: 38%;
 }
 .menuhea li ul{
     display: none;
@@ -108,8 +87,7 @@ a{
     position: fixed;
     z-index: 100;
 	border-bottom: 2px solid#BDBDBD;
-    margin-bottom: 0px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
 }
 #sect-google{
     clear: both;
@@ -117,18 +95,17 @@ a{
 }
 #googletex{
     height: 155px;
+    padding-left: 10%;
 }
 #googletex h1{
     color: white;
-    padding-left: 15%;
     font-size: 35px;
     font-weight: 100;s
 }
 #googletex p{
     color: white;
-    padding-left: 15%;
     padding-right: 35%;
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 100;
 }
 #slider-contenedor{
@@ -154,84 +131,7 @@ a{
     font-size:1.4em;
     text-align: center;
 }
-#slider2-div{
-    background-image: url(../images/slider2-logo.jpg);
-    background-size: 100% 100%;
-    text-align: center;
-}
-#slider2-div h1 {
-    font-weight: 200;
-    font-size: 40px;
-    padding-top: 35px;
-}
-#slider2-div p {
-    font-weight: 200;
-    font-size: 17px;
-    padding-top: 15px;
-}
-#slider3-div{
-    background-image: url(../images/slider3-back.jpg);
-    background-size: 100% 100%;
-}
-#slider3-div #iz{
-    padding-top: 20px;
-    padding-left: 8%; 
-    float: left;
-    width: 20%;
-}
-#iz a{
-    color: #6ab344;
-    font-size: 16px;
-    font-weight: 100;
-}
-#iz h1{
-    line-height: 45px;
-    font-weight: 300;
-    font-size: 40px;
-}
-#slider3-div #der{
-    float: left;
-    width:70%;
-    height: 700px;
-    padding-right: 20px;
-    padding-top: 100px;
-}
-#der p{
-    padding-left: 60%;
-    padding-right: 11%;
-}
-#der a{
-    color: #6ab344;
-    font-size: 14px;
-    font-weight: 200;
-    padding-left: 60%;
-}
-#slider4-div{
-    background-color: white;
-    background-image: url(../images/slider4-dispo.png);
-    background-size: 60% 60%;
-    background-position: bottom;
-    text-align: center;
-}
-#slider4-div img{
-    padding-top: 30px;
-    width: 60px;
-}
-#slider4-div h2{
-    font-size: 27px;
-    padding-left: 39%;
-    padding-right: 39%;
-    line-height: 30px;
-    color: #767777;
-}
-#slider4-div p{
-    padding-top: 330px;
-}
-#slider4-div a{
-    color: #6ab344;
-    font-size: 14px;
-    font-weight: 100;
-}
+
 #logos1{
     width: 300px;
     margin-bottom: -90px;
@@ -246,6 +146,22 @@ a{
     padding-top: 30px;
     padding-left: 42%;
 }
+#slider2-div{
+    visibility: hidden;
+    background-image: url(../images/slider2-logo.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+}
+#slider2-div h1 {
+    font-weight: 200;
+    font-size: 40px;
+    padding-top: 35px;
+}
+#slider2-div p {
+    font-weight: 200;
+    font-size: 17px;
+    padding-top: 15px;
+}
 .boton-rojo{
     background: #fc0e1a;
     border-radius: 5px;
@@ -255,6 +171,7 @@ a{
     line-height: 20px;
     padding: 13px 18px;
     margin: 30px auto 0;
+    cursor: pointer;
 }
 .slider-divfl{
     cursor: pointer;
@@ -438,6 +355,9 @@ a{
     padding-left: 32%;
     padding-right: 32%;
 }
+#customizephon img{
+    width: 100%;
+}
 #slider-more{
     padding-left: 11%;
     padding-bottom: 30px;
@@ -449,12 +369,8 @@ a{
     position: relative;
     height: 450px;
 }
-#div-more1{
-    position: absolute;
-    background-color: white;
-}
 #div-more2{
-    position: absolute;
+    display: none;
     background-color: white;
 }
 .div-more{
@@ -493,13 +409,14 @@ a{
     padding-right: 80px;
     font-size: 14px;
 }
-.top-a{
+#top a{
     color: #757575;
 }
 #redes{
     clear: both;
     padding-top: 30px;
     padding-left: 25px;
+    background-color: #f3f3f3;
 }
 #redes-div{
     padding-left: 10px;
@@ -539,10 +456,14 @@ a{
     color: #757575;
     line-height: 40px;
 }
+#foot a{
+    color: #757575;
+}
 #foot{
     clear: both;
     padding-left: 45px;
     padding-bottom: 30px; 
+    background-color: #f3f3f3;
 }
 #goo{
     float: left;
@@ -570,3 +491,391 @@ a{
     width: auto;
     padding-right: 50px;   
 }
+#men{
+    display: none;
+}
+
+@media only screen and (max-width: 480px){
+     body{
+         
+    }
+    p{    text-align: left;    }
+    #slider2-div h1{
+        font-size: 1.5em;
+    }
+    #slider2-div p{
+        text-align: center;
+    }
+    .menuhea{    display: none; width: 0px;}
+    #menuhea1{display: none}
+    #men{
+        display: inline;
+        float: left;
+        width: 10%;
+        padding-top: 35px;
+        padding-left: 20px;
+    }
+    #logohea{
+        float: left;
+        width: 65%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        text-align: center;
+        float: left;
+    }
+    #buscar{
+        width: 10%;
+        text-align: right;
+    }
+    #buscar img{
+        padding-top: 35px;
+    }
+    #logohea img{
+        height: 30px;
+    }
+    .navheader{
+        height: 75px;
+    }
+   #slider-contenedor{
+        padding-top: 70px;
+        height: 370px;
+    }
+    #slider1-div{    visibility: hidden;    }
+    #slider2-div{    visibility: visible;    }
+    #slider-pag{
+        padding-top: 10px;
+        padding-left: 42%;
+    }
+    .slider-divfl{    background-size: 90%;  margin-top:4px;  }
+    .slider-divc2{    background-size: 70%;    }
+    .slider-divc{    background-size: 70%;    }
+    .slider-divfl2{    background-size: 90%;  margin-top:4px;   }
+    #pantallas{
+        background-color: #fafafa;
+        height: 1470px;
+    }
+    #pantallas h1{
+        text-align:left;
+        padding-left: 3%;
+        font-size: 1.7em;
+    }
+    #pantallasp{
+        padding-left: 3%;
+        padding-right:5%;
+    }
+    .disppantallas{
+    }
+    #dispowear{
+        clear: both;
+        width: 70%;
+        height: 200px;
+        padding-left: 30%;
+        margin-bottom: 15px;
+        background-color: white;
+    }
+    #dispocel{
+        clear: both;
+         width: 56%;
+        height: 200px;
+        padding-left: 44%;
+        background-color: white;
+        margin-bottom: 15px;
+    }
+    #dispotab{
+        clear: both;
+         width: 61%;
+        height: 200px;
+        padding-left: 39%;
+        background-color: white;
+        margin-bottom: 15px;
+    }
+    #dispotv{
+        clear: both;
+         width: 94%;
+        height: 300px;
+        padding-left: 6%;
+        background-color: white;
+        margin-bottom: 15px;
+    }
+    #dispoauto{
+        clear: both;
+         width: 80%;
+        height: 300px;
+        padding-left: 5%;
+        background-color: white;
+        margin-bottom: 15px;
+    }
+    #mano-wear{
+        height: 350px;
+        
+    }
+    #sect-google{
+        height:600px;
+        line-height: 40px;
+    }
+    #sect-google h1{
+        margin-top: 0px;
+        font-size: 30px;
+        padding-right: 5%;
+        margin-bottom: 0px;
+    }
+    #sect-google p{
+        line-height: 23px;
+        font-size: 16px;
+        padding-right: 5%;
+    }
+    #googletex {
+        padding-left: 3%;
+    }
+    #customize{
+        text-align: left;
+        padding-left: 3%;
+        
+    }
+    #customize h1{
+        padding-top: 20px;
+        line-height: 35px;
+        font-size: 30px;
+        padding-right: 10%;
+    }
+    #customize p{
+        padding-left:0;
+        padding-right: 9%;
+    }
+    #customizephon img{
+        margin-top: 40px;
+        padding-left: 0px;
+        width: 100%;
+        height: 300px;
+    }
+    #slider-more{
+        padding-left: 0px;
+    }
+    #slider-more h1{
+        font-size: 30px;
+        padding-left: 5%;
+    }
+    .div-more{
+        clear: both;
+        width: 99%;
+        height: 330px;
+    }
+    .div-more p{
+        visibility: hidden;
+    }
+    #div-more2{
+        display: inline;
+    }
+    #slider-pag{
+        display:none;
+    }
+    #top{
+        text-align: left;
+        padding-left: 3%;
+    }
+    
+    #redes{
+        padding-left: 0px;
+        line-height: 0px
+    }
+    #redes-div{
+        display:none;
+    }
+    #foot{
+        padding-left:2%;
+    }
+    #foot nav{
+        display:none;
+        float: left;
+    }
+    #goo{
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 70px;
+        padding-left: 0px;
+        width: 30%;
+    }
+    #combo{
+        float: left;
+        width: 50%;
+    }
+    #comboleng{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 720px){
+    body{}
+    p{    text-align: left;    }
+    #slider2-div h1{
+        font-size: 1.5em;
+    }
+    #slider2-div p{
+        text-align: center;
+    }
+    .menuhea{    display: none; width: 0px;}
+    #menuhea1{display: none}
+    #men{
+        display: inline;
+        float: left;
+        width: 10%;
+        padding-top: 35px;
+        padding-left: 20px;
+    }
+    #logohea{
+        float: left;
+        width: 75%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        text-align: center;
+        float: left;
+    }
+    #buscar{
+        width: 10%;
+        text-align: right;
+    }
+    #buscar img{
+        padding-top: 35px;
+    }
+    #logohea img{
+        height: 30px;
+    }
+    .navheader{
+        height: 75px;
+    }
+   #slider-contenedor{
+        padding-top: 70px;
+        height: 560px;
+    }
+    #slider1-div{    visibility: hidden;    }
+    #slider2-div{    visibility: visible;    }
+    #slider-pag{
+        padding-top: 10px;
+        padding-left: 42%;
+    }
+    .slider-divfl{    background-size: 90%;  margin-top:4px;  }
+    .slider-divc2{    background-size: 70%;    }
+    .slider-divc{    background-size: 70%;    }
+    .slider-divfl2{    background-size: 90%;  margin-top:4px;   }
+    #pantallas{
+        background-color: #fafafa;
+        height: 1470px;
+    }
+    #pantallas h1{
+        text-align:left;
+        padding-left: 3%;
+        font-size: 1.7em;
+    }
+    #pantallasp{
+        padding-left: 3%;
+        padding-right:5%;
+    }
+    .disppantallas{
+    }
+    #dispowear{
+        clear: both;
+        width: 60%;
+        height: 200px;
+        padding-left: 39%;
+        margin-bottom: 15px;
+        background-color: white;
+    }
+    #dispocel{
+        clear: both;
+         width: 50%;
+        height: 200px;
+        padding-left: 44%;
+        background-color: white;
+        margin-bottom: 15px;
+    }
+    #dispotab{
+        clear: both;
+         width: 50%;
+        height: 200px;
+        padding-left: 42%;
+        background-color: white;
+        margin-bottom: 15px;
+    }
+    #dispotv{
+        clear: both;
+         width: 70%;
+        height: 300px;
+        padding-left: 27%;
+        background-color: white;
+        margin-bottom: 15px;
+    }
+    #dispoauto{
+        clear: both;
+         width: 80%;
+        height: 300px;
+        padding-left: 20%;
+        background-color: white;
+        margin-bottom: 15px;
+    }
+    #sect-google{
+        height:700px;
+    }
+    #googletex {
+        padding-left: 3%;
+    }
+    #customize{
+        text-align: left;
+        padding-left: 3%;
+    }
+    #customize p{
+        padding-left:0;
+        padding-right: 9%;
+    }
+    #customize{
+        
+        padding-left:3%;
+    }
+    #customizephon img{
+        margin-top: 40px;
+        padding-left: 0px;
+        width: 100%;
+        height: 300px;
+    }
+    #slider-more{
+        padding-left: 0px;
+    }
+    .div-more{
+        clear: both;
+        width: 99%;
+        height: 530px;
+    }
+    .div-more p{
+        visibility: hidden;
+    }
+    #div-more2{
+        display: inline;
+    }
+    #slider-pag{
+        display:none;
+    }
+    #top{
+        text-align: left;
+        padding-left: 3%;
+    }
+    
+    #redes{
+        padding-left: 0px;
+    }
+    #redes-div{
+        display:none;
+    }
+    #foot{
+        padding-left:2%;
+    }
+    #foot nav{
+        display:none;
+    }
+    #goo{
+        margin-right: 100px;
+        margin-bottom: 70px;
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (min-width: 721px) and (max-width: 1280px){}
+

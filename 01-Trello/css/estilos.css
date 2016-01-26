@@ -1,20 +1,26 @@
 body{
     font-family: jaf-facitweb, Helvetica Neue, Arial, sans-serif;
     font-size: 16px;
-    line-height:2em;
-    
+    line-height:1.8em;
+    margin: 0 auto;
 }
 #logo{
     height: 80px; 
-    margin-bottom: 2em;
+    margin-bottom: 1em;
+}
+#iniciar{
+    padding-top: 30px;
 }
 header{
     padding-top: 100px;
     text-align: center;
     margin-bottom: 7em;
 } 
+#imgbusiness{
+    height: 120px;
+}
 .boton-verde{
-    background: #61bd4f;
+    background: #5aac44;
     color: white;
     box-shadow: 0 2px 0 #3f6f21;
     border-radius: .3em;
@@ -24,8 +30,7 @@ header{
     padding: .7em 1.5em;
     border: 0;
     font-size: 20px;
-    text-decoration: none;
-    
+    text-decoration: none;   
 }
 .sect-azul{
     background-color: #0079bf;
@@ -33,7 +38,9 @@ header{
     padding-top: 80px;
     padding-bottom: 100px;
     clear: both;
+    text-align: center;
 }
+
 .sect-blanco{
     text-align: center;
     padding-top: 100px;
@@ -47,9 +54,8 @@ header{
 .sect-morado{
     background: #42548e;
     color: #fff;
-    padding-top: 150px;
+    padding-top: 100px;
     height: 250px;
-    
 }
 #imghero{
     width: 90%;
@@ -66,10 +72,11 @@ header{
     width: 60%;
     text-align: left;
 }
-aside{
+.divderecho{
     float: left;
 }
-.asidetexto{
+#asidetexto{
+    float: left;
     width: 50%;
     text-align: left;
 }
@@ -82,7 +89,8 @@ p{
 }
 .p2{
     padding-right: 4%;
-    padding-left: 230px;
+    padding-left:29%;
+    text-align: left;
 }
 h1{
     font-size: 2.3em;
@@ -93,6 +101,10 @@ h1{
 a{
     color: darkgrey;
     font-size: 1.5em;
+}
+#sectionlobo{
+    padding-top: 30px;
+    height: 120px;
 }
 .botontransparente{   
     border: 1px solid;
@@ -110,7 +122,6 @@ a{
     float:left;
     width: 60%;
 }
-
 .empresas{
     float:left;
     width: 100%;
@@ -126,15 +137,16 @@ a{
 }
 .business{
     float: left;
-    width: 25%;
+    width: 20%;
     text-align: right;
-    padding-left: 15%;
+    padding-left: 11%;
     padding-right: 50px;
+    margin-right: 50px;
 }
 .pbusiness{
    text-align: left;
-    padding-left: 5px;
-    padding-right: 150px;
+    padding-left: 0px;
+    padding-right: 20%;
     padding-bottom: 30px;
 }
 #footer{
@@ -166,7 +178,7 @@ a{
 #footer a{
     font-size: 1em;
 }
-#sectionlobo{
+#{
     height: 100px;
     padding-top: 40px;
 }
@@ -180,7 +192,278 @@ a{
     float: left;
     padding-top: 30px;
     padding-left: 70px;
+    text-align: left;
 }
 #asidelobo p {
     padding-left: 0px;
+}
+@media only screen and (max-width: 480px){
+    body{
+        line-height:1.5em;
+    }
+    header{
+        padding-top: 20px;
+        margin-bottom: 1em;
+    }
+     header a{
+        font-size: 16px;
+    }
+    .sect-azul{
+        padding-top: 5px;
+        padding-bottom: 10px;
+        clear: both;
+        text-align: left;
+    }
+    h1{
+        padding-left: 6%;
+        padding-right: 5%;
+        font-size: 1.8em;
+        line-height: 1.2em;
+        width: 85%;
+    }
+     .boton-verde{
+        height: 40px;
+        font-size: 16px;
+    }
+     p{
+        font-size: 14px;
+        padding-left: 4%;
+        padding-right: 2%;
+        width: 90%;
+    }
+    .botontransparente{   
+        border: 1px solid;
+        border-radius: .4em;
+        margin: .9em 0;
+        padding: .6em 1em;
+        text-decoration: none;
+        font-size: 14px;
+    }
+     .sect-blanco{
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    #imghero{
+        padding-top: 0px;
+    }
+    #imgdetalles{
+        width: 90%;
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+    #imgdisposrc{
+        width: 90%;
+        padding-left: 5%;
+    }
+    .p2{
+        width: 100%;
+        padding-left: 7%;
+    }
+    .disposi{
+        width: 80%;
+        padding-right: 10%;
+    }
+    .funciones{
+        width: 85%;
+    }
+    .logoimg{
+        height: 17px;
+        padding-top: 10px;
+    }
+    .divlogos{
+        width: 90%;
+    }
+    .business{
+        padding-left: 20px;
+        width: 76%;
+    }
+    #imgbusiness{
+        width: 90%;
+    }
+    .sect-morado{
+        padding-top: 20px;
+        height: 350px;
+    }
+    #asidetexto{
+        padding-left: 20px;
+        width: 92%;
+    }
+    #imglobo{
+        clear: both;
+        width: 90%;
+        text-align: center;
+    }
+    #sectionlobo{
+        padding-top: 15px;
+        height: 230px;
+    }
+    #asidelobo{
+        padding-top: 0px;
+        padding-left: 3%;
+        width: 90%;
+    }
+    #imgloboddiv{
+        width: 130px;
+    }
+    #footer{
+        padding-top: 30px;
+    }
+     #footer ul{
+        padding-left: 15px;
+    }
+    #footer a{
+        font-size: .85em;
+    }
+    #footer li{
+        padding-left: 10px;
+    }
+    #footer p{
+        font-size: .8em;
+        width: 82%;
+    }
+    .pbusiness{
+        width: 80%;
+        padding-right: 0px;
+    }
+     
+}
+
+@media only screen and (min-width: 481px) and (max-width: 720px){
+    body{
+        line-height: 1.5em;
+    }
+    header{
+        padding-top: 40px;
+        margin-bottom: 40px;
+    }
+    header a{
+        font-size: 16px;
+    }
+    h1{
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 2em;
+        line-height: 1em;
+    }
+    .boton-verde{
+        height: 40px;
+        font-size: 16px;
+    }
+    p{
+        font-size: 16px;
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 89%;
+    }
+    .sect-gris{
+        position: relative;
+        height: 450px;
+        padding-top: 30px;
+    }
+    .disposi{
+        position: absolute;
+        width: 90%;
+        padding-top: 250px;
+    }
+    #imgdispo{
+        padding-left: 15%;
+        position: absolute;
+    }
+    .p2{
+        padding-left:8%;
+        width: 85%;
+    } 
+    #sectionlobo{
+        padding-top: 15px;
+        height: 240px;
+    }
+    #funciones-blanco{
+        position: relative;
+        height: 340px;
+    }
+    .funciones{
+        position: absolute;
+        text-align: left;
+        width: 100%;
+        padding-top: 220px;
+    }
+    #divfunciones{
+        padding-left: 25%;
+        position: absolute;
+    }
+    .sect-azul{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .sect-azul p{
+        padding-left:60px;
+        width: 85%;
+        padding-right: 20px;
+        text-align: left;
+    }
+    .sect-blanco{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+   
+    .logoimg{
+        height: 20px;
+        padding-top: 10px;
+    }
+    #imghero{
+        width: 85%;
+        padding-left: 55px;
+        padding-top: 0px;
+    }
+    .business{
+        clear: both;
+        text-align: center;
+        width: 75%;
+    }
+    #asidetexto{
+        clear: both;
+        width: 90%;
+        padding-left: 50px;
+        text-align: left;
+    }
+    .pbusiness{
+        padding-right: 50px;
+        padding-bottom: 0px;
+    }
+    .sect-morado{
+        padding-top: 70px;
+        height: 380px;
+    }
+    
+    #{
+        height: 280px;
+    }
+    #asidelobo{
+        padding-left: 60px;
+        padding-top: 0px;
+        width: 60%;
+    }
+    #imglobo{
+        clear: both;
+        width: 100%;
+        text-align: center;
+    }
+    #footer ul{
+        padding-left: 20px;
+    }
+    #footer a{
+        font-size: .9em;
+    }
+    #footer li{
+        padding-left: 15px;
+    }
+    #footer p{
+        font-size: .9em;
+        width: 92%;
+    }
+    
+}
+
+@media only screen and (min-width: 721px) and (max-width: 1280px){
+        
 }

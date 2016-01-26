@@ -1,6 +1,7 @@
 body{
     font-family: Arial, sans-serif;
     background-color: gainsboro;
+    font-size: 1em;
 }
 header{
     font-size: 50px;
@@ -41,8 +42,49 @@ a{
 hr{
     width: 100%;
     clear: both;
-
 }
 nav{
     padding-bottom: 20px;
 }
+
+@media only screen and (max-width: 480px){
+    body{
+        font-size: .8em;
+    }
+     header{
+        text-align: center;
+    }
+    ul{
+        padding-left: 1%;
+    }
+    .menu{
+        width: 30%;
+    }
+    section{
+        width: 75%;
+        text-align: justify;
+    }
+    aside{
+        padding-left: 10px;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 720px){
+    body{
+        margin-left: 0px;
+        font-size: .9em;
+    }
+    header{
+        text-align: center;
+    }
+    ul{
+        padding-left: 1%;
+    }
+    section{
+        width: 75%;
+        margin-left: 10px;
+    }
+}
+@media only screen and (min-width: 721px) and (max-width: 1280px){
+        
+}
+
